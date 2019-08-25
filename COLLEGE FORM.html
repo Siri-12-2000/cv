@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>COLLEGE REGISTRATION FORM</title>
+  </head>
+  <body>
+    <form>
+        <label for="FIRST NAME">FIRST NAME:</label>
+        <input type="text" name="FIRSTNAME" value="" required> <br><br>
+        <label for="LAST NAME">LAST NAME:</label>
+        <input type="text" name="LASTNAME" value="" required><BR><br>
+        <label for="DATE OF BIRTH">DATE OF BIRTH:</label>
+        <input type="date" name="" value="" required><br><br>
+        <label for="GENDER">GENDER:</label>
+        <input type="radio" id="MALE" Name="GENDER">
+        <label for="radio">MALE</label>
+        <input type="radio" id="FEMALE" Name="GENDER">
+        <label for="radio">FEMALE</label>
+        <input type="radio" id="OTHERS" Name="GENDER">
+        <label for="radio">OTHERS</label><br><br>
+        <label for="email">ENTER YOUR E-MAIL:</label>
+        <input type="email" id="email" pattern=".+@gmail.com" size="30" maxlength="60" required placeholder="siri@gmail.com"><br><br>
+        <label for="MOBILE NUMBER">MOBILE NUMBER</label>
+        <input type="text" name="" value=""><br><br>
+        <label for="COLLEGE">COLLEGE:</label>
+        <fieldset>
+          <input type="radio" id="KIET" Name="college">
+          <label for="KIET">KIET</label><br/>
+          <input type="radio" id="KIEK" Name="college">
+          <label for="KIEK">KIEK</label><br/>
+          <input type="radio" id="KIEW" Name="college">
+          <label for="KIEW">KIEW</label>
+        </fieldset>
+        <br>
+        <br>
+
+        <label for="BRANCH">BRANCH NAME:</label>
+        <input list="BRANCH NAME" id="BRANCH" name="BRANCH"/>
+
+        <datalist id="BRANCH NAME">
+          <option value="CSE">
+          <option value="MECH">
+          <option value="ECE">
+          <option value="EEE">
+          <option value="CIVIL">
+        </datalist>
+        <br>
+        <br>
+        <label for="YEAR SELECTIION">YEAR:</label>
+        <select id="YEAR SELECTION">
+          <option value="">--SELECT YOUR YEAR</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+        <br>
+        <br>
+        <label for="SEM">WHICH SEMISTER</label>
+        <input list="WHICH SEMISTER" id="SEM" name="SEM"/>
+
+        <datalist id="WHICH SEMISTER">
+          <option value="1">
+          <option value="2">
+        </datalist>
+<br>
+<br>
+       <label for="ROLL NUMBER">ROLL NUMBER:</label>
+       <input type="text" name="ROLL NUMBER" value="" required>
+       <br>
+       <br>
+       <label for="SELECT LANGUAGE">LANGUAGES KNOWN:</label>
+       <br>
+       <br>
+       <input type="checkbox" id="ENGLISH" Name="LANGUAGE1">
+       <label for="ENGLISH">ENGLISH</label>
+       <br>
+       <input type="checkbox" id="HINDI" Name="LANGUAGE2">
+       <label for="HINDI">HINDI</label>
+       <br>
+       <input type="checkbox" id="TELUGU" Name="LANGUAGE3">
+       <label for="TELUGU">TELUGU</label>
+       <br>
+       <input type="checkbox" id="OTHERS" Name="LANGUAGE4">
+       <label for="OTHERS">OTHERS</label>
+       <br>
+       <br>
+<label for="SELECT PROGRAMMING LANGUAGE">TECHNICAL LANGUAGES KNOWN:</label>
+<br>
+<br>
+<input type="checkbox" id="C" Name="LANGUAGE1">
+<label for="C">C</label>
+<br>
+<input type="checkbox" id="C++" Name="LANGUAGE2">
+<label for="C++">C++</label>
+<br>
+<input type="checkbox" id="PYTHON" Name="LANGUAGE3">
+<label for="PYTHON">PYTHON</label>
+<br>
+<input type="checkbox" id="JAVA" Name="LANGUAGE4">
+<label for="JAVA">JAVA</label>
+<br>
+<br>
+<label for="PASSWORD">ENTER PASSWORD:</label>
+<input type="password" name="pwd" maxlength="8">
+<br>
+<br>
+<label for="CONFIRM PASSWORD">ENTER PASSWORD AGAIN:</label>
+<input type="password" name="pwd" maxlength="8">
+<br>
+<br>
+<label for="">REMARKS:</label>
+<textarea name="REMARKS" rows="3" cols="15"></textarea>
+<button type="button">SUBMIT</button>
+    </form>
+  </body>
+</html>
